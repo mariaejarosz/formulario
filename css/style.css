@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(149, 40, 174)
+}
+
+h3 {
+    text-align: center;
+    color: rgb(91, 22, 108);
+}
+
+form {
+    text-align: center;
+}
+
+
+fieldset {
+    background-color: rgba(190, 177, 231, 0.579);
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 5px groove;
+}
+
+p {
+    text-align: center;
+}
+
+.incorreto{
+    box-shadow: 0 0 5px 1px red;
+    background-color: rgba(255, 0, 0, 0.237);
+}
+
+.correto{
+    box-shadow: 0 0 5px 1px rgb(0, 255, 55);
+    background-color: rgba(50, 246, 125, 0.579);
+}
+
+.field2 {
+    background-color: aliceblue;
+    margin: 10px 500px 20px;
+    border: 1px;
+}
